@@ -10,14 +10,12 @@ export default class NavBar extends Component {
                     <Navbar.Brand href="#home">TodoList</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            
-                        </Nav>
-                        <Form inline>
+                       
+                        {/* <Form inline>
                             <FormControl type="text" placeholder="Search" className="mr-sm-2 searchBar" />
                             <Button variant="outline-light">Search</Button>
-                        </Form>
+                        </Form> */}
+                       <Nav className='text-muted'> Github</Nav>
                     </Navbar.Collapse>
                 </Navbar>
             </>
